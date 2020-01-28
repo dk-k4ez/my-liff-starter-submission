@@ -26,8 +26,10 @@
                 Catatan Password-ku
             </h1>
             <ul class="nav nav-pills">
-                <li><a id="nav-list-data" href="javascript:void(0);" onclick="gantiMenu('list-data');">List Data</a></li>
-                <li><a id="nav-tambah-data" href="javascript:void(0);" onclick="gantiMenu('tambah-data');">Tambah Data</a></li>
+                <li><a id="nav-list-data" href="javascript:void(0);" onclick="gantiMenu('list-data');">List Data</a>
+                </li>
+                <li><a id="nav-tambah-data" href="javascript:void(0);" onclick="gantiMenu('tambah-data');">Tambah
+                        Data</a></li>
             </ul>
 
         </div>
@@ -35,7 +37,8 @@
             <form id="form-data">
                 <div id="alamat-group" class="form-group">
                     <label>Alamat URL:</label>
-                    <input type="text" class="form-control" id="alamatUrl" name="alamatUrl" placeholder="Contoh: facebook.com">
+                    <input type="text" class="form-control" id="alamatUrl" name="alamatUrl"
+                        placeholder="Contoh: facebook.com">
                 </div>
                 <div id="username-group" class="form-group">
                     <label>Username:</label>
@@ -97,8 +100,10 @@
                     <label for="disabled">Password:</label>
                     <input type="password" class="form-control" id="lpassword" name="password" disabled></input>
                 </div>
-                <input type=button id="show" class="btn btn-danger btn-small" value="Show Password" onclick="showPassword()">
-                <input type=button style="display:none" class="btn btn-success btn-small" id="hide" value="Hide Password" onclick="hidePassword()">
+                <input type=button id="show" class="btn btn-danger btn-small" value="Show Password"
+                    onclick="showPassword()">
+                <input type=button style="display:none" class="btn btn-success btn-small" id="hide"
+                    value="Hide Password" onclick="hidePassword()">
                 <input type="button" value="Kembali" onclick="gantiMenu('list-data');"
                     class="btn btn-warning btn-small" />
             </form>
@@ -175,7 +180,8 @@
         <!-- LIFF INIT ERROR -->
         <div id="liffInitErrorMessage" class="hidden">
             <p>Something went wrong with LIFF initialization.</p>
-            <p>LIFF initialization can fail if a user clicks "Cancel" on the "Grant permission" screen, or if an error occurs in the process of <code>liff.init()</code>.
+            <p>LIFF initialization can fail if a user clicks "Cancel" on the "Grant permission" screen, or if an error
+                occurs in the process of <code>liff.init()</code>.
         </div>
 
         <!-- NODE.JS LIFF ID ERROR -->
